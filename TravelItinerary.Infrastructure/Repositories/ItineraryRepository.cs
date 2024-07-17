@@ -1,5 +1,3 @@
-
-
 using Microsoft.EntityFrameworkCore;
 using TravelItinerary.Domain.Entitties;
 using TravelItinerary.Domain.Repositories;
