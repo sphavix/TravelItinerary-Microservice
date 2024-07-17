@@ -1,8 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper;
+using TravelItinerary.Application.CQRS.Attractions.Commands;
 using TravelItinerary.Application.Responses;
 using TravelItinerary.Domain.Entitties;
 
@@ -13,6 +10,7 @@ namespace TravelItinerary.Application.Mappers
         public ItineraryMappingProfile()
         {
             CreateMap<Attraction, AttractionResponse>().ReverseMap();
+            CreateMap<Attraction, CreateAttractionCommand>().ReverseMap();
         }
     }
 }

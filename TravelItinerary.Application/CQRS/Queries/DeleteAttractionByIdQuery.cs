@@ -1,7 +1,7 @@
 
 using MediatR;
 
-namespace TravelItinerary.Application.CQRS.Attraction.Queries
+namespace TravelItinerary.Application.CQRS.Queries
 {
     public class DeleteAttractionByIdQuery : IRequest<bool>
     {

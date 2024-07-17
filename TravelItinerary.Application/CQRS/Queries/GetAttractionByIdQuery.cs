@@ -2,7 +2,7 @@
 using MediatR;
 using TravelItinerary.Application.Responses;
 
-namespace TravelItinerary.Application.CQRS.Attraction.Queries
+namespace TravelItinerary.Application.CQRS.Queries
 {
     public class GetAttractionByIdQuery : IRequest<AttractionResponse>
     {

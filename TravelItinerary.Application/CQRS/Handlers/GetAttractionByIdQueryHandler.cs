@@ -1,11 +1,11 @@
 
 using MediatR;
-using TravelItinerary.Application.CQRS.Attraction.Queries;
+using TravelItinerary.Application.CQRS.Queries;
 using TravelItinerary.Application.Mappers;
 using TravelItinerary.Application.Responses;
 using TravelItinerary.Domain.Repositories;
 
-namespace TravelItinerary.Application.CQRS.Attraction.Handlers
+namespace TravelItinerary.Application.CQRS.Handlers
 {
     public class GetAttractionByIdQueryHandler : IRequestHandler<GetAttractionByIdQuery, AttractionResponse>
     {
